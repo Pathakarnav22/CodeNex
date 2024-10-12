@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo img {
+  height: 63px;
+  width: 63px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+nav ul,
+a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s color ease;
+}
+
+nav ul a:hover{
+    color: gray;
+}
+
+nav ul li {
+  text-decoration: none;
+  list-style: none;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+.main-content {
+  width: 100%;
+  height: 100vh;
+}
+
+.welcome {
+  display: flex;
+}
+
+.club {
+  display: flex;
+}
+
+h1 {
+  font-size: 110px;
+}
+
+.club img {
+  width: 554px;
+  height: 134px;
+}
+
+.text {
+  padding-left: 80px;
+  padding-top: 315px;
+}
+
+.design img {
+  width: 412px;
+  height: 454px;
+}
+
+.design {
+  padding: 195px 50px;
+}
