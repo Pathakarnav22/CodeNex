@@ -48,7 +48,7 @@ section {
   border: 1px solid white;
   cursor: pointer;
   font-weight: bolder;
-  border-radius: 10px;
+  border-radius: 8px;
   transition: 0.5s ease;
 }
 
@@ -116,7 +116,7 @@ section {
 .heading h1 {
   font-size: 64px;
   padding-top: 8px;
-  color: skyblue;
+  color: rgb(135, 206, 235);
 }
 
 .heading p {
@@ -130,6 +130,7 @@ section {
 
 .about-container img {
   width: 530px;
+  border: 2px solid gray;
 }
 
 .about-para {
@@ -163,49 +164,165 @@ section {
   height: 300px;
   width: 350px;
   object-fit: cover;
-  border-radius: 10px;
+  border: 2px solid gray;
 }
 
-.why{
+.why {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: gray;
 }
 
-.images{
+.images {
   background-color: gray;
 }
 
-.images img{
+.images img {
   width: 600px;
   border: 2px solid white;
 }
 
-.why .contents{
+.why .contents {
   padding: 50px;
   margin-left: 20px;
   background-color: gray;
 }
 
-.why .contents h2{
+.why .contents h2 {
   font-size: 32px;
   background-color: gray;
 }
 
-.why .contents h2 span{
+.why .contents h2 span {
   color: skyblue;
   background-color: gray;
 }
 
-.why .contents p{
+.why .contents p {
   font-size: 16px;
   line-height: 2;
   padding: 15px 0;
   background-color: gray;
 }
 
-.why .contents .btn{
+.why .contents .btn {
   background-color: gray;
 }
 
+.image-box img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.events {
+  width: 100%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.events .lines {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.events-column img {
+  width: 380px;
+  height: 500px;
+  object-fit: cover;
+  border: 2px solid gray;
+}
+
+.events-column {
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-basis: 32%;
+}
+
+.lines h1 {
+  font-size: 64px;
+  padding-top: 8px;
+  color: skyblue;
+}
+
+.lines h3 {
+  font-size: 40px;
+}
+
+.layer h3{
+  font-size: 35px;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.newsletter .content h3{
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.newsletter .content p{
+  padding: 8px;
+  line-height: 2;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.newsletter .content{
+  text-align: center;
+  margin: 8px auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.newsletter .content a{
+  color: white;
+}
+
+.newsletter .content a:hover{
+  text-decoration: underline;
+}
+
+form{
+  display: flex;
+  border: 2px solid skyblue;
+  border-radius: 8px;
+  padding: 4px;
+  width: 60%;
+  align-items: center;
+  margin: 8px;
+
+  .email{
+    width: 100%;
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+
+  .btn{
+    margin: 5px;
+  }
+}
+
+.footer{
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.footer h4{
+  font-size: 20px;
+  padding: 20px;
+}
+
+.footer p{
+  padding-bottom: 20px;
+}
